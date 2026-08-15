@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name" translatable="false">KM Patcher</string>
+    <string name="app_name_long" translatable="false">Katti\'s Mod Patcher</string>
+    <string name="app_version" translatable="false">v1.0.0</string>
+    <string name="github_release_url" translatable="false">https://github.com/CKatti/KattisMod/releases/latest/download/libKattisMod.so</string>
+    <string name="github_release_notes_api" translatable="false">https://api.github.com/repos/CKatti/KattisMod/releases/latest</string>
+    <string name="youtube_url" translatable="false">https://youtube.com</string>
+    <string name="github_url" translatable="false">https://github.com/CKatti/KattisMod</string>
+    <string name="website_url" translatable="false">https://github.com/CKatti/KattisMod/index.html</string>
+    <string name="libName" translatable="false">KattisMod</string>
 </resources>

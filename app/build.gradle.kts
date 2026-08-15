@@ -14,6 +14,12 @@ android {
         versionCode = 1
         versionName = "1.0"
 
+        ndk {
+            abiFilters.add("x86_64")
+            abiFilters.add("armeabi-v7a")
+            abiFilters.add("arm64-v8a")
+        }
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -54,7 +60,10 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
 
-    implementation(libs.apksig)
-    implementation(libs.zip4j)
-    implementation(libs.dexlib2)
+    implementation(libs.ackpine.core)   // Installating APK
+    implementation(libs.ackpine.ktx)    // Ackpine Kotlin extensions
+    implementation(libs.apksig)         // Signing APK
+    implementation(libs.arsclib)        // Modfying ARSC and zip aligning
+    implementation(libs.dexlib2)        // MOdify .dex files
+    implementation(libs.zip4j)          // Zipping and unzipping
 }
