@@ -7,7 +7,7 @@ Built for Android 17 or older. Downloads latest release of Katti's Mod for RLSS,
 
 # How to use the app
 - Install RLSS through official sources(Epic Store)
-- Download and install KM Patcher APK ([link](https://github.com/CKatti/KattisModPatcher/releases/latest))
+- Download and install KM Patcher APK ([link](https://github.com/CKatti/KattisModPatcher/releases/latest/download/KattisMod_Patcher.apk))
 - Open the app and press "Start Patch"
 - You might need provide "Install from unknown sources" premissions
 - Wait till patching is complete and installation prompt appears
@@ -20,7 +20,7 @@ In case the patcher gets stuck, try to clear cache/data and try again.
 # Features: 
 - Renames package
 - Overlays a watermark on original logo
-- Injects custom lib into APK
+- Injects latest KattisMod lib into APK
 - Rewrites .dex file to load custom lib
 - Repack, zip align and sign the modded  APK
 
